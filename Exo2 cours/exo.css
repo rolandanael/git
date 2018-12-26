@@ -1,0 +1,192 @@
+
+/*......*/
+header{
+	display:inline-flex;
+	background-color:#FFBF00;
+
+}
+
+
+.Logo{
+	width:20%;
+
+}
+
+/*....grandmenu..*/
+
+.Grandmenu{  
+       width:40%
+
+}
+/*..menu..*/
+.menu{
+ 
+	display:inline-flex;
+	list-style-type:none;
+	margin-top:40px;
+}
+
+li{
+	padding-left:10px;
+
+}
+/*...connexion.*/
+
+.Connexion{
+    float:right;
+	margin-top:30px;
+	width:40%;
+	padding-left:550px
+
+
+
+}
+/*...fin de connexion......*/
+
+.grandcontenaire{
+		display:inline-flex;
+		width:80%;
+		margin-left:10%;
+		padding-right:0%
+
+}
+
+h2{ 
+	stroke-linecap:10px
+
+
+}
+
+.texte{ 
+	
+	display:inline-flex;
+	font-family:'Roboto',
+	Arial;
+	width:50%;
+	font-size:1em;
+	flex-direction:left;
+	padding-top:5px;
+	background-color:silver;
+}
+
+.espace{
+
+	padding-left:20px;
+}
+
+}
+
+.laville{
+	float:left;
+	padding-left:300px;
+	height:50px;
+	
+}
+
+.imagesdeux{
+	float:left;
+	padding-left:20px;
+
+}
+
+/*....fin de grandcontenaire.*/
+
+}
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+  /*.....fin des queries..*/
+
+  .deuxiemephase{
+  
+  			display: inline-flex;
+  			margin-right:500px;
+  			width:90%
+
+  }
+
+/*.....fin. deuxiemephase*/
+
+.petitcontenaire{
+	display:inline;
+
+
+}
+
+.phaseuno{
+	display:flex;
+
+}
+
+.phasedos{}
+
+.phasetres{
+
+	float:right;
+}
+
+
+
+
+.rubriques{
+	margin-left:600px;
+	display:inline-flex;
+	width:100%
+	height:80%;
+
+}
+ 
+.ru1{
+
+  overflow: scroll;
+  background-color:green;
+}
+
+
+
+.ru'{
+    margin: 100px;
+    width: 200px;
+    height: 150px;
+    background-color: #008;
+}
+
+.ru2{
+	width:20%
+	height:20%;
+	background-color:yellow;
+
+}
+
+.ru3{
+	width:20%
+	height:20%;
+	background-color:skyblue;
+
+}
+
+footer{
+
+	height:250px;
+	text-align:center;
+	color:white;
+	background-color:black;
+}
+
